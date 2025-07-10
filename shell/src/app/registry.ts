@@ -3,7 +3,7 @@ import { loadRemoteModule } from '@angular-architects/module-federation';
 export const registry = {
     mfe1: () => loadRemoteModule({
         type: 'module',
-        remoteEntry: 'http://localhost:4201/remoteEntry.js',
+        remoteEntry: 'http://localhost:4217/remoteEntry.js',
         exposedModule: './web-components'
     }),
     mfe2: () => loadRemoteModule({
